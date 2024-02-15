@@ -126,15 +126,17 @@ body {
 /* Add the shadow */
 .shadow {
   position: absolute;
-  width: 330px;
-  height: 25px;
+  width: 300px; 
+  height: 20px;
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.3);
-  bottom: 250px;
-  left: 650px;
+  top: 250px; 
+  left: 50%; 
+  transform: translateX(-50%); 
   animation: scale 3s linear infinite;
   z-index: -1;
 }
+
 
 /* To move the envelope up and down */
 @keyframes up {
