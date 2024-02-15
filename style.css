@@ -130,9 +130,9 @@ body {
   height: 20px;
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.3);
-  top: 250px; 
+  top: 210px;
   left: 50%; 
-  transform: translateX(-50%); 
+  transform: translateX(-150px);
   animation: scale 3s linear infinite;
   z-index: -1;
 }
